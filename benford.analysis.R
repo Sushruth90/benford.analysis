@@ -13,7 +13,7 @@ library(dplyr)
 library(benford.analysis)
 library(pdftools)
 # read data
-txt <- pdf_text("C:/Users/sushr/OneDrive/Desktop/Common risk factors in the cross-section of corporate bond returns.pdf")
+txt <- pdf_text("C:/.....")
 txt
 # filter out numbers
 numeric_values <- as.numeric(unlist(str_extract_all(txt, "\\d+")))
